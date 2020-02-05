@@ -4,17 +4,17 @@
 
 """
 * 1. GUI added
-* 2. only convert UTF-8 plain text files (subtitle files) to chs & cht by using opencc@byvoid
+* 2. only convert UTF-8 plain text files (.txt, .srt, .ass, subtitle files) to chs & cht by using opencc@byvoid
 * 3. run in Python 3 under windows 10, not ubuntu
 * 4. download python 3:  https://www.python.org/downloads/
      open IDLE of Python 3 Shell (GUI), File->Open->choose this .py file->set cursor in the .py content and press F5 to run it 
-* 5. windows 10使用opencc的方法之一:
-下載 opencc-python-master -> click icon "Clone or download"
+* 5. use opencc in windows 10:
+download opencc-python-master -> click icon "Clone or download"
 https://github.com/yichen0831/opencc-python
 or
 https://codeload.github.com/yichen0831/opencc-python/zip/master
-解壓後放在一個folder裡，例如 C:/
-如果放在別處，需要改動下列path:
+unzip and put opencc in a folder，for instance C:/
+If you put opencc in the other path，you need to change the path as below:
 sys.path.append("C:/opencc-python-master/opencc/")
 """
 
